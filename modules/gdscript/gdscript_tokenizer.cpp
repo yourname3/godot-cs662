@@ -110,7 +110,7 @@ static const char *token_names[] = {
 	"const", // CONST,
 	"enum", // ENUM,
 	"extends", // EXTENDS,
-	"func", // FUNC,
+	"fun", // FUNC,
 	"in", // IN,
 	"is", // IS,
 	"namespace", // NAMESPACE
@@ -505,7 +505,7 @@ GDScriptTokenizer::Token GDScriptTokenizerText::annotation() {
 	KEYWORD("extends", Token::EXTENDS)       \
 	KEYWORD_GROUP('f')                       \
 	KEYWORD("for", Token::FOR)               \
-	KEYWORD("func", Token::FUNC)             \
+	KEYWORD("fun", Token::FUNC)             \
 	KEYWORD_GROUP('i')                       \
 	KEYWORD("if", Token::IF)                 \
 	KEYWORD("in", Token::IN)                 \
